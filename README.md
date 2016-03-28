@@ -1,4 +1,22 @@
-# EMC Internal Dashboard updater
+# hubot-int-dashboard-chat-commands
+
+A script that handles communication between hubot and a dashupdater.
+
+See [`src/dashboardcomm.coffee`](src/dashboardcomm.coffee) for full documentation.
+
+## Installation
+
+In hubot project repo, run:
+
+`npm install hubot-int-dashboard-chat-commands --save`
+
+Then add **hubot-int-dashboard-chat-commands** to your `external-scripts.json`:
+
+```json
+[
+  "hubot-int-dashboard-chat-commands"
+]
+```
 
 ## EMC internal dashboard components:
 - [Display](https://github.com/EMC-Underground/bellevue-dashboards)
@@ -11,3 +29,4 @@
 If you have any general questions, please submit a issue.
 
 If you are an EMC employee, and have questions about getting this running in your local office, please email john.quicksall@emc.com with your EMC email.
+
